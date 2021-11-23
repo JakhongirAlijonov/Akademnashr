@@ -38,12 +38,14 @@
     }
     
     .main-header_brand:hover {
-        place-content: 0.8;
+        opacity: 0.8;
     }
+
+.main-header_brand:active{
+   opacity:0.6;
+}
     
-    .main-header_brand:active {
-        place-content: 0.6;
-    }
+    
     
     .main-nav {
         display: flex;
@@ -270,6 +272,14 @@
         align-items: center;
         justify-content: space-between;
     }
+
+.footer_img:hover{
+   opaity:0.8;
+}
+
+.footer_img:active{
+   opaity:0.6;
+}
     
     .footer-socials {
         display: flex;
