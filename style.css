@@ -242,9 +242,13 @@
         margin-right: 64px;
         margin-top: -85px;
         margin-bottom: 64px;
-        border-radius: 50px;
+        
         display: flex;
     }
+
+.img-sale img{
+   border-radius: 50px;
+}
     
     .sales-text-2 {
         margin-top: 12px;
